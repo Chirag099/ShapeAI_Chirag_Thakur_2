@@ -8,7 +8,7 @@ app.get("/",(req,res)=>{
 });
 
 app.post("/",(req,res)=>{
-    // res.sendFile(__dirname+"/calc.html");
+    // res.sendFile(__dirname+"/index.html");
     let n1= Number(req.body.res);
     let n2= Number(req.body.wes);
     let result = (n1/Math.pow(n2,2));
